@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: skyblue;
+    min-height: 200vh; 
+}
+
+.navbar {
+    background-color: blue;
+    box-shadow: 2px 2px 50px grey; 
+}
+
+.navbar ul {
+    display: flex; 
+    padding: 10px;
+    align-items: center; 
+}
+
+.navbar ul li {
+    list-style: none; 
+    padding: 10px; 
+}
+
+.navbar ul li .nama {
+    font-size: 15px;
+    color: white;
+    letter-spacing: 7px; 
+    margin-right: auto; 
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.navbar ul li a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron {
+    margin-top: 20px; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron h2 {
+    letter-spacing: 2px; 
+}
+
+.about {
+    background-color: #004d99; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px; 
+    padding: 15px; 
+}
+
+.gallery {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px; 
+    padding: 10px;  
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.0);
+    box-shadow: 0 0 20px rgba(151, 151, 151, 0.7);
+}
+
+
+#contact {
+
+    background-color: #004d99; 
+    color: white;
+    text-align: center;
+    padding: 60px 0; 
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#contact h2 i {
+    color: #ffd700; 
+    margin-right: 8px;
+}
+
+#contact p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #ffd700; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #fff; 
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1a1a1a; 
+    color: #fff; 
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem; 
+}
+
+footer .container p {
+    margin: 0;
+  }
